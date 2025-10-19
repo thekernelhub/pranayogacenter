@@ -59,7 +59,7 @@ const Planos = () => {
         </div>
       </header>
       <div className={styles.containerPlanos}>
-        <ul className={styles.listaPlanos} style={{ left: `${positionWidth}px` }} ref={containerSlideRef}>
+        <ul className={styles.list} style={{ left: `${positionWidth}px` }} ref={containerSlideRef}>
           {planos.map(plano =>
             <Plano plano={plano.nome} preco={plano.preco} key={plano.nome} />
           )}

@@ -15,16 +15,14 @@ const HeaderMobile = () => {
         isMenuOpen &&
         <nav className={styles.navItens}>
           <a href='/'>Home</a>
-          <a href='/'>Aulas</a>
-          <a href='/'>Instrutores</a>
-          <a href='/'>Modalidades</a>
-          <a href='/'>Sobre</a>
-          <a href='/'>Contato</a>
-          <a href='/'>Área do usuário</a>
+          <a href='/'>Timetable</a>
+          <a href='/'>Plans</a>
+          <a href='/'>Instructors</a>
+          <a href='/'>About Us</a>
         </nav>
       }
       <a href='/' className={styles.logo}><img src={logo} alt='logo'></img></a>
-      <a href='/' className={`btnPreto ${styles.btnComeceAgora}`}>Comece agora</a>
+      <a href='/' className={`btnPreto ${styles.btnComeceAgora}`}>Better you</a>
     </>
   )
 }

@@ -70,10 +70,27 @@
   }
 
   .by {
-    grid-row: unset
+    grid-row: auto; 
   }
 
   .links {
     margin-top: .5rem;
   }
+}
+
+.logo {
+
+  margin: 0 auto;
+  width: 3rem;
+  height: auto;
+  text-align: center;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%
+}
+
+.logoFooter {
+  justify-content: flex-end;
 }

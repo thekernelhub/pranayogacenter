@@ -7,16 +7,14 @@ const HeaderDefault = () => {
     <>
       <div className={styles.col1Nav}>
         <a href='/'>Home</a>
-        <a href='/'>Aulas</a>
-        <a href='/'>Instrutores</a>
-        <a href='/'>Modalidades</a>
+        <a href='/'>Timetable</a>
+        <a href='/'>Plans</a>
       </div>
       <a href='/' className={styles.logo}><img src={logo} alt='logo'></img></a>
       <div className={styles.col2Nav}>
-        <a href='/'>Sobre</a>
-        <a href='/'>Contato</a>
-        <a href='/'>Area do usuario</a>
-        <a href='/' className='btnPreto'>Comece agora</a>
+        <a href='/'>Instructors</a>
+        <a href='/'>About Us</a>
+        <a href='/' className='btnPreto'>Better you</a>
       </div>
     </>
   )
